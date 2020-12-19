@@ -9,7 +9,7 @@ body {
 }
 
 .blink-body {
-  background-color: rgba(7, 45, 63, 0.93);
+  background-color: rgba(7, 45, 63, 0.98);
   background-blend-mode: ;
 }
 /* font-family: 'Nunito', sans-serif; 600 or 400
@@ -126,11 +126,13 @@ a p {
   font-size: 2.6rem;
   text-align: center;
   line-height: 0;
+  transition: 0.3s;
 }
 
 .icon:hover {
   color: white;
   text-shadow: 0 0 4px;
+  transform: scale(1.1);
 }
 
 @media (max-width: 720px) {
