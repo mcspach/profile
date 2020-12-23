@@ -76,7 +76,8 @@ img {
   z-index: 4;
 }
 .row img:hover {
-  transform: scale(1.5);
+  transform: scale(1.4);
+  z-index: 9;
 }
 
 
@@ -174,9 +175,6 @@ a p {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
 
-  body {
-    font-size: 60%;
-  }
   h4 {
     font-size: 1.1rem;
   }
@@ -199,5 +197,10 @@ a p {
     /* border: 1px solid white; */
     padding: 2% 4% 2% 4%;
     margin: 0 auto;
+  }
+
+  .row img:hover {
+    transform: scale(1.1);
+    z-index: 9;
   }
 }
