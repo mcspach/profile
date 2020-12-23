@@ -35,8 +35,8 @@ strong {
 }
 
 img {
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
   /* border-radius: 8px; */
   border: 2px solid rgb(49, 55, 69);
   box-shadow: 0px 1px 8px white;
@@ -69,10 +69,10 @@ img {
   color: rgb(172, 197, 255);
 }
 
-.rowcard img {
+.row img {
   transition: 0.4s;
 }
-.rowcard img:hover {
+.row img:hover {
   transform: scale(2);
 }
 
@@ -87,8 +87,8 @@ img {
 }
 
 .top img {
-  height: 180px;
-  width: 180px;
+  height: 140px;
+  width: 140px;
   margin: 20px 0px;
   border: 1px solid white;
   box-shadow: none;
@@ -98,10 +98,10 @@ img {
 .titles {
   background-color: rgba(7, 45, 63, 0.8);
   border: 1px solid white;
-  padding: 0% 2% 0% 180px;
+  padding: 0% 1% 0% 130px;
   position: absolute;
   z-index: 0;
-  margin-left: 25px;
+  margin-left: 30px;
 }
 
 .demo {
@@ -137,7 +137,7 @@ img {
 }
 
 .btn {
-  margin: 0px 12px;
+  margin: 0 2%;
 }
 
 a p {
@@ -163,24 +163,28 @@ a p {
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
- 
-  img {
-    width: 92%;
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
+  h5 {
+    font-size: 1.1rem;
   }
 
   a p {
-    font-size: .62rem;
+    font-size: .6rem;
     text-align: center;
     white-space: nowrap;
   }
 
   .icon {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .container {
     /* border: 1px solid white; */
-    padding: 2% 4% 4% 4%;
-    margin: 0;
+    padding: 2% 4% 2% 4%;
+    margin: 0 auto;
   }
 }
