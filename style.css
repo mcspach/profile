@@ -3,14 +3,14 @@ body {
   text-align: center;
   font-family: Raleway, sans-serif;
   font-weight: 300;
-  background-image: url("https://media.giphy.com/media/3CXAKoP5ji2g64IgwP/giphy.gif");
+  background-image: url("https://images.unsplash.com/photo-1475359524104-d101d02a042b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1157&q=80");
   background-size: cover;
   background-attachment: fixed;
 }
 
 .blink-body {
-  background-color: rgba(7, 45, 63, 0.98);
-  background-blend-mode: ;
+  background-color: rgba(50, 96, 117, 0.3);
+  background-blend-mode: darken;
 }
 /* font-family: 'Nunito', sans-serif; 600 or 400
 /* font-family: 'Quicksand', sans-serif; 800 or 200
@@ -18,6 +18,15 @@ body {
 
 h5 {
   color: white;
+}
+
+.titles {
+  background-color: rgba(7, 45, 63, 0.8);
+  border: 1px solid white;
+  padding: 0% 2% 0% 180px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 25px;
 }
 
 p {
@@ -34,16 +43,6 @@ strong {
   margin: 0;
 }
 
-/* .banner {
-  height: 70px;
-  margin: 0;
-  border-radius: 0%;
-  border: none;
-  background-color: rgb(255, 255, 255);
-  color: rgb(6, 50, 152);
-  text-shadow: 0.5px 0.5px 1px rgb(76, 162, 149);
-} */
-
 img {
   width: 90%;
   height: 90%;
@@ -58,7 +57,7 @@ img {
   /* margin: 2%; */
   padding: 2%;
   border-top: 1px solid white;
-  background-color: rgba(7, 45, 63, 0.6); 
+  background-color: rgba(7, 45, 63, 0.8); 
   /* box-shadow: 0px 1px 8px white; */
   display: flex;
   flex-direction: column;
@@ -80,9 +79,10 @@ img {
 .top img {
   height: 180px;
   width: 180px;
-  margin-right: 20px;
+  margin: 20px 0px;
   border: 1px solid white;
   box-shadow: none;
+  z-index: 1;
 }
 
 /* .button {
