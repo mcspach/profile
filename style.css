@@ -19,15 +19,6 @@ h5 {
   color: white;
 }
 
-.titles {
-  background-color: rgba(7, 45, 63, 0.8);
-  border: 1px solid white;
-  padding: 0% 2% 0% 180px;
-  position: absolute;
-  z-index: 0;
-  margin-left: 25px;
-}
-
 p {
   font-size: .9rem;
 }
@@ -52,7 +43,7 @@ img {
   border-radius: 50%;
 }
 
-.mycard {
+.colcard {
   /* margin: 2%; */
   padding: 2%;
   border-top: 1px solid white;
@@ -65,6 +56,26 @@ img {
   flex-wrap: nowrap;
   color: rgb(172, 197, 255);
 }
+
+.rowcard {
+  /* margin: 2%; */
+  padding: 2%;
+  border-top: 1px solid white;
+  background-color: rgba(7, 45, 63, 0.8); 
+  /* box-shadow: 0px 1px 8px white; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: rgb(172, 197, 255);
+}
+
+.rowcard img {
+  transition: 0.4s;
+}
+.rowcard img:hover {
+  transform: scale(2);
+}
+
 
 .top {
   flex-direction: row;
@@ -82,6 +93,15 @@ img {
   border: 1px solid white;
   box-shadow: none;
   z-index: 1;
+}
+
+.titles {
+  background-color: rgba(7, 45, 63, 0.8);
+  border: 1px solid white;
+  padding: 0% 2% 0% 180px;
+  position: absolute;
+  z-index: 0;
+  margin-left: 25px;
 }
 
 .demo {
