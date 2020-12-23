@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
   <title>Matthew Spach | Profile Page</title>
   <link rel="stylesheet" type="text/css" href="style.css"/>
@@ -14,19 +18,16 @@
 <body>
   <div class="blink-body">
 
-  <div class="container">
+  <div class="bontainer container">
 
-  <div class="card top">
-    <img src="images/LeWagon Square.jpeg", alt="paint splatter sillouette">
-    <div class="titles"><h3 style="color:white;">Matthew Spach</h3>
-    <h4 style="color:white;">Full Stack Web Developer</h4></div>
-  </div>
+    <div class="mycard top">
+      <img src="images/LeWagon Square.jpeg", alt="my photo">
+      <div class="titles"><h4 style="color:white;">Matthew Spach</h4>
+      <h5 style="color:white;">Full Stack Web Developer</h5></div>
+    </div>
 
-    <!-- <div class="card heading"> -->
-      <!-- <h5>Recent Projects</h5> -->
-    <!-- </div> -->
 
-    <div class="card">
+    <div class="mycard row">
       <p><strong>CampFree</strong> - Network for discovering campsites and outdoor recreation.</p>
       <p>First draft was developed with help from other students at Le Wagon coding bootcamp. This is a Ruby on Rails web application, inspired by the setup of AirBnb.</p>
       <div class="flex-links">
@@ -39,7 +40,17 @@
       </div>
     </div>
 
-    <div class="card">
+    <div class="mycard row">
+      <div class="col-sm-8">
+      <p><strong>Safely AI</strong> - Through gamification and rewards, this mobile app incentivizes safety for skilled laborers. With an management interface for data analytics and accountabilty, workers can now enjoy their routine training.</p>
+      <p>I worked as the lead developer on a team of four to bring this app to life in two weeks. It's a Ruby on Rails web app with a JavaScript-driven front end and detailed css animations.</p>
+      </div>
+      <div class="col-sm-4">
+        <img src="images/Safely_Demo.png" class="demo">
+      </div>
+    </div>
+
+    <div class="mycard row">
       <p><strong>Quiz Master</strong> - A gamefied quiz application.</p>
       <p>Developed with help from other students at Le Wagon coding bootcamp. This is a Ruby on Rails web application with a JS-heavy frontend. Mobile-first design.</p>
         <div class="flex-links">
@@ -64,13 +75,13 @@
       </div>
     </div> -->
 
-    <div class="card">
+    <div class="mycard row">
       <p><strong>Education</strong></p>
       <p><strong>Le Wagon Mexico</strong> - Full Stack Developer Bootcamp - 2020</p>
       <p><strong>California State University Fullerton</strong> - B.A. Film and TV - 2015</p>
     </div>
 
-    <div class="card">
+    <div class="mycard row">
         <!-- <h5>Other Stuff</h5> -->
         
         <div class="flex-links">
@@ -95,23 +106,22 @@
         </div>
       </div>
 
-    <div class="card">
+    <div class="mycard row">
       <p><strong>Contact Me</strong></p>
       <p><strong>matthewspach@gmail.com</strong></p>
     </div>
       
-    <div class="card">
+    <div class="mycard row">
       <p style="color:white;">My free time is spent hiking mountains, throwing frisbees, and winning board games.</p>
     </div>
   
-<!-- 
-    <div>
-      <h4>For your viewing pleasure... <br> a cave man dancing.</h4>
-      <img src="images/caveparty1.gif", alt="Cartoon Cave Man with Squiggle Arms">
-    </div> -->
 
   </div>
 
 </div>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>

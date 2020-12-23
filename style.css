@@ -10,7 +10,6 @@ body {
 
 .blink-body {
   background-color: rgba(50, 96, 117, 0.3);
-  background-blend-mode: darken;
 }
 /* font-family: 'Nunito', sans-serif; 600 or 400
 /* font-family: 'Quicksand', sans-serif; 800 or 200
@@ -35,12 +34,13 @@ p {
 
 strong {
   color: white;
+  font-size: 1.2rem;
 }
 
-.container {
+.bontainer {
   /* border: 1px solid white; */
   padding: 2% 14% 2% 14%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 img {
@@ -52,8 +52,7 @@ img {
   border-radius: 50%;
 }
 
-
-.card {
+.mycard {
   /* margin: 2%; */
   padding: 2%;
   border-top: 1px solid white;
@@ -83,6 +82,12 @@ img {
   border: 1px solid white;
   box-shadow: none;
   z-index: 1;
+}
+
+.demo {
+  border: none;
+  border-radius: 2px;
+  box-shadow: none;
 }
 
 /* .button {
@@ -116,7 +121,8 @@ img {
 }
 
 a p {
-  font-size: .9rem;
+  font-size: 0.9rem;
+  line-height: 1rem;
   text-align: center;
   white-space: nowrap;
 }
