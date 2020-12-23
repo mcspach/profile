@@ -174,16 +174,19 @@ a p {
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
 
-  h4 {
-    font-size: 1.3rem;
+  body {
+    font-size: 60%;
   }
-
-  h5 {
+  h4 {
     font-size: 1.1rem;
   }
 
+  h5 {
+    font-size: .9rem;
+  }
+
   a p {
-    font-size: .7rem;
+    font-size: .6rem;
     text-align: center;
     white-space: nowrap;
   }
