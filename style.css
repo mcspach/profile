@@ -30,7 +30,7 @@ body {
   margin: 20px 0px;
   border: 1px solid white;
   box-shadow: none;
-  z-index: 12;
+  border-radius: 50%;
 }
 
 .top {
@@ -51,6 +51,7 @@ body {
   border: 1px solid white;
   box-shadow: none;
   z-index: 12;
+  border-radius: 50%;
 }
 
 .titles {
@@ -82,15 +83,6 @@ strong {
   margin: 0 auto;
 }
 
-img {
-  width: 70%;
-  height: 70%;
-  /* border-radius: 8px; */
-  border: 2px solid rgb(49, 55, 69);
-  box-shadow: 0px 1px 8px white;
-  border-radius: 50%;
-}
-
 .colcard {
   padding: 2%;
   border-top: 1px solid white;
@@ -110,7 +102,7 @@ img {
   color: rgb(172, 197, 255);
 }
 
-.row img {
+.rowcard img {
   width: 85%;
   height: 85%;
   transition: 0.4s;
@@ -118,7 +110,7 @@ img {
   margin-top: 2%;
   margin-bottom: 2%
 }
-.row img:hover {
+.rowcard img:hover {
   transform: scale(1.3);
   z-index: 9;
 }
