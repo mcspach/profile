@@ -19,10 +19,10 @@
 
   <div class="container" id="navbar">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-xs-6">
         <img src="images/LeWagon Square.jpeg", alt="my photo">
       </div>
-      <div class="col-sm-4">
+      <div class="col-xs-6">
           <h4 style="color:white;">Matthew Spach</h4>
           <h5 style="color:white;">Full Stack Web Developer</h5>
       </div>
@@ -149,6 +149,19 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <!-- Main JS -->
     <script>
+      const navbar = document.getElementById('navbar');
+
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 180 || document.documentElement.scrollTop > 180) {
+          navbar.style.top = "0";
+        } else {
+          navbar.style.top = "-100px";
+        }
+      }
+
+
       // define const for the btn and divs
       const contactButton = document.getElementById('expand-form');
       const contactInfo = document.querySelectorAll('.contact-info');

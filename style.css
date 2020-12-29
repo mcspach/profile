@@ -20,6 +20,8 @@ body {
   position: fixed;
   z-index: 10;
   border-bottom: 1px solid white;
+  top: -100px;
+  transition: top 0.6s;
 }
 
 #navbar img {
