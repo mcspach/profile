@@ -136,10 +136,14 @@ strong {
   border: none;
   justify-content: space-around;
   text-align: center;
-  max-height: 250px;
 }
 
-.flex-row img:hover {
+.small-col img{
+  max-width: 185px;
+  max-height: 185px;
+}
+
+.small-col img:hover {
   transform: none;
 }
 
