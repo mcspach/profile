@@ -136,6 +136,11 @@ strong {
   border: none;
   justify-content: space-around;
   text-align: center;
+  max-height: 250px;
+}
+
+.flex-row img:hover {
+  transform: none;
 }
 
 .clicker {
