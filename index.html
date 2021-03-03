@@ -161,14 +161,14 @@
 
       <div class="colcard row">
         <div class="col-md-12">
-          <button class="btn btn-primary" id="expand-form"><strong>Contact Me</strong></button>
+          <!-- <button class="btn btn-primary" id="expand-form"> -->
+            <p>| Contact Me |</p>
         </div>
-          <div class="col-md-12 contact-info d-none">
+          <div class="col-md-12 contact-info">
             <p></p>
-            <p><strong>matthewspach@gmail.com</strong></p>
-            <p>or</p>
+            <a href="mailto:matthewspach@gmail.com"><p>matthewspach@gmail.com</p></a>
           </div>
-          <form class="form-box contact-info d-none">
+          <!-- <form class="form-box contact-info d-none">
             <div class="form-group row">
               <label for="name" class="col-sm-3 col-form-label text-right">Name</label>
               <div class="col-sm-6">
@@ -194,7 +194,7 @@
                 </button>
               </div>
             </div>
-          </form>
+          </form> -->
         </div>
         
       <div class="colcard row">
@@ -228,15 +228,15 @@
 
       // contact form expand effect
 
-      const contactButton = document.getElementById('expand-form');
-      const contactInfo = document.querySelectorAll('.contact-info');
+    //   const contactButton = document.getElementById('expand-form');
+    //   const contactInfo = document.querySelectorAll('.contact-info');
 
-      toggleDisplay = () => {
-        console.log(contactInfo);
-        contactInfo.forEach(element => element.classList.toggle('d-none'));
-    }
+    //   toggleDisplay = () => {
+    //     console.log(contactInfo);
+    //     contactInfo.forEach(element => element.classList.toggle('d-none'));
+    // }
 
-      contactButton.addEventListener('click', toggleDisplay);
+    //   contactButton.addEventListener('click', toggleDisplay);
     </script>
 </body>
 </html>
