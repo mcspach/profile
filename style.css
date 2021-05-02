@@ -3,10 +3,18 @@ body {
   text-align: center;
   font-family: Raleway, sans-serif;
   font-weight: 300;
-  background-image: url('https://images.unsplash.com/photo-1469980098053-382eb10ba017?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=850&q=80');
+  background-color: black;
+}
+
+.bg {
+  background-image: url('https://media.giphy.com/media/eLnSQCj4GUSpzcquvI/giphy.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}
+
+.blur {
+  backdrop-filter: blur(1px);
 }
 
 
@@ -96,7 +104,6 @@ strong {
   align-items: center;
   flex-wrap: nowrap;
   color: rgb(172, 197, 255);
-  border-radius: 16px;
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
 
@@ -107,7 +114,6 @@ strong {
   background-color: rgba(0, 16, 23, 0.85);
   color: rgb(172, 197, 255);
   border: 1px solid white;
-  border-radius: 16px;
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
 
@@ -116,9 +122,6 @@ strong {
   padding: 2%;
   background-color: rgb(0, 16, 23);
   color: rgb(172, 197, 255);
-  /* border: 1px solid white; */
-  /* border-radius: 16px; */
-  /* box-shadow: 0 0 6px rgb(172, 197, 255); */
 }
 
 .rowcard img {
@@ -136,7 +139,7 @@ strong {
 
 .demo {
   border: 2px solid white;
-  border-radius: 2px;
+  border-radius: 6px;
   box-shadow: none;
 }
 
