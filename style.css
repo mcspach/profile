@@ -3,10 +3,19 @@ body {
   text-align: center;
   font-family: Raleway, sans-serif;
   font-weight: 300;
-  background-image: url('https://images.unsplash.com/photo-1469980098053-382eb10ba017?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=850&q=80');
+  background-color: black;
+}
+
+
+div.main_bg {
+  background-image: url('https://media.giphy.com/media/eLnSQCj4GUSpzcquvI/giphy.gif');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
+}
+
+div.blur {
+  backdrop-filter: blur(1px);
 }
 
 
@@ -58,7 +67,7 @@ body {
 }
 
 .titles {
-  background-color: rgba(0, 16, 23, 0.85);
+  background-color: rgba(0, 16, 23, 0.75);
   border: 2px solid white;
   padding: 0% 1% 0% 130px;
   position: absolute;
@@ -80,7 +89,6 @@ strong {
 }
 
 .container {
-  /* border: 1px solid white; */
   padding: 2% 8% 2% 8%;
   margin: 0 auto;
 }
@@ -89,14 +97,13 @@ strong {
   padding: 8% 3%;
   margin-bottom: 8%;
   border: 1px solid white;
-  background-color: rgba(0, 16, 23, 0.85); 
+  background-color: rgba(0, 16, 23, 0.75); 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: nowrap;
   color: rgb(172, 197, 255);
-  border-radius: 16px;
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
 
@@ -104,10 +111,9 @@ strong {
 .rowcard {
   padding: 8% 3%;
   margin-bottom: 8%;
-  background-color: rgba(0, 16, 23, 0.85);
+  background-color: rgba(0, 16, 23, 0.75);
   color: rgb(172, 197, 255);
   border: 1px solid white;
-  border-radius: 16px;
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
 
@@ -116,9 +122,6 @@ strong {
   padding: 2%;
   background-color: rgb(0, 16, 23);
   color: rgb(172, 197, 255);
-  /* border: 1px solid white; */
-  /* border-radius: 16px; */
-  /* box-shadow: 0 0 6px rgb(172, 197, 255); */
 }
 
 .rowcard img {
@@ -177,6 +180,7 @@ a p {
 .contact-info a p {
   font-size: 1.5rem;
   color: rgb(172, 197, 255);
+  mix-blend-mode: darken;
 }
 
 .contact-info a:hover p{
