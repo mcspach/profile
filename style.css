@@ -7,14 +7,10 @@ body {
 }
 
 .bg {
-  background-image: url('https://media.giphy.com/media/eLnSQCj4GUSpzcquvI/giphy.gif');
+  background-image: url('images/dot_field.gif');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
-}
-
-.blur {
-  backdrop-filter: blur(1px);
+  background-position: top;
 }
 
 
@@ -221,6 +217,12 @@ a p {
 
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
+  .bg {
+    background-image: url('images/dot_field2.gif');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+  }
 
   h4 {
     font-size: 1.2rem;
