@@ -9,7 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: loader-wrapper 2s forwards .5s ease-in;
   }
 
   .loader {
@@ -48,9 +47,4 @@
     50% { height: 100%;}
     75% { height: 100%;}
     100% { height: 0%;}
-  }
-
-  @keyframes loader-wrapper {
-    0% {opacity: 100%;}
-    100% {opacity: 0%;}
   }
