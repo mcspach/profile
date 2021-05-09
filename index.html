@@ -19,6 +19,7 @@
 
 </head>
 <body>
+  <div class="content">
   <div class="container" id="navbar">
     <div class="row">
       
@@ -179,39 +180,16 @@
 
 </div>
 </div>
+</div>
+
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-    <!-- Main JS -->
-    <script>
-
-      // navbar-banner transition
-      const navbar = document.getElementById('navbar');
-
-      window.onscroll = function() {scrollFunction()};
-
-      function scrollFunction() {
-        if (document.body.scrollTop > 240 || document.documentElement.scrollTop > 240) {
-          navbar.style.top = "0";
-        } else {
-          navbar.style.top = "-100px";
-        }
-      }
-
-      // contact form expand effect
-
-    //   const contactButton = document.getElementById('expand-form');
-    //   const contactInfo = document.querySelectorAll('.contact-info');
-
-    //   toggleDisplay = () => {
-    //     console.log(contactInfo);
-    //     contactInfo.forEach(element => element.classList.toggle('d-none'));
-    // }
-
-    //   contactButton.addEventListener('click', toggleDisplay);
-    </script>
+    <script src="main.js"></script>
 </body>
 </html>
