@@ -115,6 +115,22 @@ strong {
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
 
+.col-xs-12, .col-md-6 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+div.democard {
+  padding: 0;
+}
+.democard img {
+  width: 100%;
+  height: 100%;
+}
+.demotext {
+  padding: 4% 3% 1% 3%;
+}
+
 .titlebar {
   width: 101.5%;
   padding: 2%;
@@ -122,22 +138,9 @@ strong {
   color: rgb(172, 197, 255);
 }
 
-.rowcard img {
-  width: 100%;
-  height: 100%;
-  transition: 0.4s;
-  z-index: 9;
-  margin-top: 2%;
-  margin-bottom: 2%
-}
-.rowcard img:hover {
-  transform: scale(1.3);
-  z-index: 9;
-}
 
 .demo {
-  border: 2px solid white;
-  border-radius: 6px;
+  border: 1px solid white;
   box-shadow: none;
 }
 
@@ -155,13 +158,13 @@ strong {
   text-align: center;
 }
 
+.small-col{
+  padding-top: 4%;
+}
 .small-col img{
   max-width: 185px;
   max-height: 185px;
-}
-
-.small-col img:hover {
-  transform: none;
+  margin-bottom: 4%;
 }
 
 .clicker {
@@ -200,8 +203,8 @@ a p {
   transform: scale(1.05);
 }
 
-.form-box {
-  width: 100%;
+.cert {
+  width: 50%;
 }
 
 .btn-primary {
@@ -247,9 +250,5 @@ a p {
   .container {
     padding: 4% 6% 4% 6%;
     margin: 0 auto;
-  }
-
-  .row img:hover {
-    transform: none;
   }
 }
