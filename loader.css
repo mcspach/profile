@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fade-out 2s forwards 1s ease-in;
   }
 
   .loader {
@@ -32,6 +33,13 @@
   div.content {
       margin: 0;
       padding: 0;
+  }
+
+  @keyframes fade-out {
+    0% { opactiy: 100;}
+    99% { visibility: visible;}
+    100% { opacity: 0;
+          visibility: hidden; }
   }
 
   @keyframes loader {
