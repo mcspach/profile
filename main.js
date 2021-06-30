@@ -11,9 +11,3 @@ function scrollFunction() {
     navbar.style.top = "-100px";
   }
 }
-
-// fade out on loader
-
-$(window).on('load', function(){
-  $('.loader-wrapper').fadeOut("slow");
-});
