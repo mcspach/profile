@@ -3,9 +3,17 @@
 body {
   margin: 0 auto;
   text-align: center;
-  font-family: Raleway, sans-serif;
-  font-weight: 300;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   background-color: black;
+}
+
+div h1, div h2, div h3, div h4, div h5, div h6 {
+  font-family: good-times, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  color: white;
 }
 
 .bg {
@@ -15,10 +23,6 @@ body {
   background-position: top;
 }
 
-
-/* font-family: 'Nunito', sans-serif; 600 or 400
-/* font-family: 'Quicksand', sans-serif; 800 or 200
-/* font-family: 'Raleway', sans-serif; */
 
 #navbar {
   width: 100vw;
@@ -44,12 +48,17 @@ body {
 
 .top {
   display: flex;
-  justify-content: space-around;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
   align-items: center; 
-  justify-content: flex-start;
+  margin-bottom: 10vh;
+  color: rgb(150, 213, 247);
+  height: 90vh;
+  margin-right: -15px;
+  margin-left: -15px;
   text-align: left;
-  border: none;
-  background: none;
+  border-bottom: 2px solid white;
+  background-color: rgba(0, 16, 23, 0.85);
   padding: 10% 3% 10% 3%;
 }
 
@@ -66,10 +75,24 @@ body {
 .titles {
   background-color: rgba(0, 16, 23, 0.85);
   border: 2px solid white;
-  padding: 0% 1% 0% 130px;
+  padding: 0% 3% 0% 130px;
   position: absolute;
   z-index: 0;
   margin-left: 30px;
+}
+
+.topcard1 {
+  margin-left: 10vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+  justify-content: flex-start;
+  align-self: flex-start;
+}
+
+.topcard2 {
+  max-width: 950px;
+  text-align: center;
 }
 
 h5 {
@@ -93,7 +116,7 @@ strong {
 
 .colcard {
   padding: 8% 3%;
-  margin-bottom: 8%;
+  margin: 0 1% 6% 1%;
   border: 1px solid white;
   background-color: rgba(0, 16, 23, 0.85); 
   display: flex;
@@ -101,16 +124,16 @@ strong {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: nowrap;
-  color: rgb(172, 197, 255);
+  color: rgb(150, 213, 247);
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
 
 
 .rowcard {
   padding: 8% 3%;
-  margin-bottom: 8%;
+  margin: 0 1% 6% 1%;
   background-color: rgba(0, 16, 23, 0.85);
-  color: rgb(172, 197, 255);
+  color: rgb(150, 213, 247);
   border: 1px solid white;
   box-shadow: 0 0 6px rgb(172, 197, 255);
 }
@@ -135,7 +158,7 @@ div.democard {
   width: 101.5%;
   padding: 2%;
   background-color: rgb(0, 16, 23);
-  color: rgb(172, 197, 255);
+  color: rgb(150, 213, 247);
 }
 
 
@@ -180,7 +203,7 @@ a p {
 
 .contact-info a p {
   font-size: 1.5rem;
-  color: rgb(172, 197, 255);
+  color: rgb(150, 213, 247);
 }
 
 .contact-info a:hover p{
@@ -190,7 +213,7 @@ a p {
 }
 
 .icon {
-  color: rgb(172, 197, 255);
+  color: rgb(150, 213, 247);
   font-size: 2.6rem;
   text-align: center;
   line-height: 0;
@@ -214,7 +237,7 @@ a p {
 }
 
 .btn-primary:hover {
-  background-color: rgb(172, 197, 255);
+  color: rgb(150, 213, 247);
 }
 
 .d-none {
