@@ -21,24 +21,24 @@
 
   <!-- HTML Meta Tags -->
 <title>Matthew Spach | Creative Developer</title>
-<meta name="description" content="Here lies the work of Matthew Spach: Creative Web Developer, Software Engineer, and Video Editor. California, USA.">
+<meta name="description" content="Here lies the work of Matthew Spach: Creative Developer, Software Engineer, and Product Designer. California, USA.">
 
 <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Matthew Spach | Creative Developer">
-<meta itemprop="description" content="Here lies the work of Matthew Spach: Creative Web Developer, Software Engineer, and Video Editor. California, USA.">
+<meta itemprop="description" content="Here lies the work of Matthew Spach: Creative Developer, Software Engineer, and Product Designer. California, USA.">
 <meta itemprop="image" content="https://res.cloudinary.com/spachbox/image/upload/v1623178629/Website_Preview_Image_gsllug.png">
 
 <!-- Facebook Meta Tags -->
 <meta property="og:url" content="https://www.matthewspach.com">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Matthew Spach | Creative Developer">
-<meta property="og:description" content="Here lies the work of Matthew Spach: Creative Web Developer, Software Engineer, and Video Editor. California, USA.">
+<meta property="og:description" content="Here lies the work of Matthew Spach: Creative Developer, Software Engineer, and Product Designer. California, USA.">
 <meta property="og:image" content="https://res.cloudinary.com/spachbox/image/upload/v1623178629/Website_Preview_Image_gsllug.png">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Matthew Spach | Creative Developer">
-<meta name="twitter:description" content="Here lies the work of Matthew Spach: Creative Web Developer, Software Engineer, and Video Editor. California, USA.">
+<meta name="twitter:description" content="Here lies the work of Matthew Spach: Creative Developer, Software Engineer, and Product Designer. California, USA.">
 <meta name="twitter:image" content="https://res.cloudinary.com/spachbox/image/upload/v1623178629/Website_Preview_Image_gsllug.png">
 
 <!-- Meta Tags Generated via http://heymeta.com -->
@@ -46,19 +46,22 @@
   <!-- LottiePlayer -->
   <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
+<!-- THREEJS
+  <script async src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
 </head>
+
 <body>
   <div class="content">
   <div class="container" id="navbar">
     <div class="row">
       
       <div class="col-xs-4 col-sm-3">
-        <img src="images/spach_photo.png", alt="my photo">
+        <img src="images/spach_1.png", alt="my photo">
       </div>
 
       <div class="col-xs-8 col-sm-6">
           <h4 style="color:white;">Matthew Spach</h4>
-          <h5 style="color:white;">Creative Web Developer</h5>
+          <h5 style="color:white;">Creative Developer</h5>
       </div>
         
       </div>
@@ -68,11 +71,26 @@
   <div class="container-fluid">
 
     <div class="top">
-        <div class="topcard1 row">
-        <img src="images/spach_photo.png", alt="my photo">
-        <div class="titles pt-1"><h4 style="color:white;">Matthew Spach</h4>
-        <h5 style="color:white;">Creative Web Developer</h5></div>
+
+      <nav>
+        <a class="navlink" href="#process">PROCESS</a>
+        <a class="navlink" href="#work">WORK</a>
+        <a class="navlink" href="#contact">CONTACT</a>
+      </nav>
+        
+        <img src="images/spach_1.png", alt="my photo">
+        <div class="row">
+          <h4 class="matthew" style="color:white;">Matthew</h4>
+          <h4 class="spach" style="color:white;">Spach</h4>
+        <div class="titles">
+          <h5 style="color:white;">Creative Developer</h5>
+          <hr>
+          <h5 style="color:white;">Product Designer</h5>
+      </div>
     </div>
+    </div>
+
+    <div class="banner"  id="process">
       <div class="topcard2 row">
         <div class="col-xs-12 col-md-6 demotext">
            <h2>| DESIGN |</h2>
@@ -82,17 +100,15 @@
         <div class="col-xs-12 col-md-6 demotext">
           <h2>| DEVELOPMENT |</h2>
           <p>I work efficiently to write clean, scalable code for&nbsp;powerful&nbsp;applications.<br>
-          <strong>Ruby on Rails | Javascript | MERN | HTML | CSS/SCSS | Jekyll |&nbsp;Adobe&nbsp;Creative&nbsp;Cloud</strong></p>
+          <strong>Ruby on Rails | Javascript | HTML | CSS/SCSS | webflow |&nbsp;Adobe&nbsp;Creative&nbsp;Cloud</strong></p>
           <p>Currently Learning: <br>
           <strong>Hotwire for Rails | React Native</strong></p>
         </div>
       </div>
     </div>
 
-    <div class="rowcard row">
-      <div class="col-xs-12">
+    <div class="titlestripe" id="work" style="padding-top:10vh;">
          <h3>| RECENT WORK |</h3>
-      </div>
     </div>
 
     <div class="rowcard democard row">
@@ -120,9 +136,9 @@
         <img src="images/anyfans.png" class="">
       </div>
       <div class="col-xs-12 col-md-6 demotext">
-        <h2>AnyFans</h2><h3>Social Media Startup</h3>
+        <h2>AF Social</h2><h3>Social Media Startup</h3>
         <p>Manager of Software Development</p>
-        <p>Leading a small team of developers in a Startup environment to deliver and maintain a React Native mobile app.</p>
+        <p>Leading a small team of developers in a startup environment to deliver and enhance a React Native mobile app.</p>
         <p>Spring 2022 - Present</p>
         <p></p>
         <div class="clicker">
@@ -141,7 +157,7 @@
         <p>Summer 2021 - Spring 2022</p>
         <p></p>
         <div class="clicker">
-        <a href="https://www.moderncampus.com" target="_blank">
+        <a class="icon" href="https://www.moderncampus.com" target="_blank">
           <h3>Go to Site ></h3>
         </a>
       </div>
@@ -160,11 +176,12 @@
         <p>Supplies companies with data analytics and accountability features.</p>
         <p>Safely AI is a Ruby on Rails web app with detailed JS animations.</p>
         <p>2020</p>
-        <div class="clicker">
-        <a class="icon" href="https://getsafelyai.com/" target="_blank">
-          <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_szzmwyr1.json" background="transparent"  speed="1"  style="height: 80px" loop autoplay></lottie-player>
-        </a>
-      </div>
+          <div class="clicker">
+              <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_szzmwyr1.json" background="transparent"  speed="1"  style="height: 80px" loop autoplay></lottie-player>
+          </div>
+           <div class="clicker">
+            <a class="icon" href="https://github.com/mcspach/campfree" target="_blank"><i class="fab fa-github"></i><p>code ></p></a>
+          </div>
       </div>
     </div>
 
@@ -216,7 +233,7 @@
           <p>HEDGEBETTOR TECHNOLOGIES<br>landing page - 2021</p>
         </div>
         <div class="small-col col-xs-12 col-md-6">
-          <a href="https://www.gascohomeloans.com" target="_blank">
+          <a href="https://www.gascohomeloans.webflow.io" target="_blank">
             <img src="images/gasco.png" class="demo mb-2">
           </a>
           <p>GASCO HOME LOANS<br>landing page - 2021</p>
@@ -234,7 +251,7 @@
       <img class="cert" src="images/adobe_cert.png" alt="Adobe Certified Professional Video Visual Web Design">
     </div>
 
-    <div class="colcard row">
+    <div class="colcard row" id="contact">
         <div class="flex-row row">
           <div class="clicker col-1">
             <a class="icon" href="https://github.com/mcspach/" target="_blank"><i class="fab fa-github"></i><p>github</p></a>

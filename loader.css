@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: fade-out 2s forwards 1s ease-in;
+    animation: fade-out 1.5s forwards 1s ease-in;
   }
 
   .loader {
@@ -19,7 +19,7 @@
     position: relative;
     border: 2px solid #Fff;
     border-radius: 10%;
-    animation: loader 2s infinite ease;
+    animation: loader 1.5s infinite ease;
   }
 
   .loader-inner {
@@ -27,7 +27,7 @@
     display: inline-block;
     width: 100%;
     background-color: #fff;
-    animation: loader-inner 2s infinite ease-in;
+    animation: loader-inner 1.5s infinite ease-in;
   }
 
   div.content {
