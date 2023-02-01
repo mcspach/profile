@@ -1,5 +1,7 @@
 @import url("./loader.css");
-
+* {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0 auto;
   text-align: center;
