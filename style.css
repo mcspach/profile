@@ -331,7 +331,7 @@ a p {
 input,textarea {
   width: 400px;
   max-width: 80vw;
-  background-color: #293532;
+  background-color:rgba(0, 16, 23, 0.5)
 }
 
 .d-none {
