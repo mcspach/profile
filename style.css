@@ -96,7 +96,7 @@ nav .navlink:hover {
   /* border: 2px solid white; */
   position: absolute;
   top: 25%;
-  left: 25%;
+  left: auto;
   box-shadow: none;
   z-index: 0;
 }
@@ -179,6 +179,8 @@ h5 {
 
 p {
   font-size: 1.6rem;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 strong {
