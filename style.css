@@ -46,7 +46,7 @@ div h1, div h2, div h3, div h4, div h5, div h6 {
   border: 2px solid white;
   box-shadow: none;
   border-radius: 50%;
-}
+} 
 
 nav {
   margin: 10px;
@@ -315,12 +315,16 @@ a p {
 }
 
 .btn-primary {
-  background-color: #293532;
+  background-color:rgba(6, 49, 73, 0.5);
   border: 1px solid white;
+  width: 100px;
+  margin: 0 auto;
 }
 
 .btn-primary:hover {
-  color: rgb(150, 213, 247);
+  background: unset;
+  border: 1px solid white;
+  box-shadow: 0 0 4px white;
 }
 
 .contact-form {
@@ -331,7 +335,9 @@ a p {
 input,textarea {
   width: 400px;
   max-width: 80vw;
-  background-color: #293532;
+  background-color:rgba(0, 16, 23, 0.5);
+  border: .5px solid white;
+  margin-bottom: 5px;
 }
 
 .d-none {
