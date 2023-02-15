@@ -96,7 +96,7 @@ nav .navlink:hover {
   /* border: 2px solid white; */
   position: absolute;
   top: 25%;
-  left: 25%;
+  left: auto;
   box-shadow: none;
   z-index: 0;
 }
