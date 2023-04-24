@@ -120,9 +120,12 @@ justify-content: space-between;
   left: 15vw;
   mix-blend-mode: hard-light;
   z-index: 3;
-  animation-name: slideIn;
+  animation-name: slideTitle;
   animation-duration: 2s;
   animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  /* New Stuff */
+  transform: translate(0, 100%) scaleY(1%);
 }
 
 .spach {
@@ -132,9 +135,12 @@ justify-content: space-between;
   right: 20vw;
   mix-blend-mode: hard-light;
   z-index: 3;
-  animation-name: slideIn;
+  animation-name: slideTitle;
   animation-duration: 2s;
   animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  /* New Stuff */
+  transform: translate(0, 100%) scaleY(1%);
 }
 
 .topcard1 {
@@ -422,4 +428,9 @@ input,textarea {
   /* from {transform: translate(300%, 0) rotate(-45);} */
   
   to {transform: translate(0%, 0%) rotate(0); opacity: 100%;}
+}
+
+@keyframes slideTitle {
+  /* from {transform: translate(300%, 0) rotate(-45);} */
+  to {transform: translate(0%, 0%) scaleY(100%)}
 }
