@@ -206,6 +206,9 @@ strong {
   flex-wrap: nowrap;
   color: rgb(150, 213, 247);
   box-shadow: 0 0 6px rgb(172, 197, 255);
+    /* new stuff */
+  transform: translate(-50%, 100%) rotate(-45deg);
+  opacity: 1%;
 }
 
 .rowcard {
@@ -215,6 +218,9 @@ strong {
   color: rgb(150, 213, 247);
   border: 1px solid white;
   box-shadow: 0 0 6px rgb(172, 197, 255);
+  /* new stuff */
+  transform: translate(-50%, 100%) rotate(-45deg);
+  opacity: 1%;
 }
 
 .col-xs-12, .col-md-6 {
@@ -402,7 +408,18 @@ input,textarea {
   }
 }
 
+/* animations */
+
+/* create an animation to move a card from left side of screen into view */
+.slideIn {
+  animation-name: slideIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
 @keyframes slideIn {
-  from {transform: translate(300%, 0);}
-  to {transform: translate(0%, 0);}
+  /* from {transform: translate(300%, 0) rotate(-45);} */
+  
+  to {transform: translate(0%, 0%) rotate(0); opacity: 100%;}
 }
