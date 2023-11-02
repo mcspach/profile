@@ -21,7 +21,7 @@ font-size: 24px;
 body {
   margin: 0 auto;
   /* text-align: center; */
-  font-family: 'Modernist', sans-serif;
+  font-family: 'Modernist', 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: black;
@@ -30,23 +30,24 @@ body {
   max-width: 100vw;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Humane', sans-serif;
+  font-family: 'Humane', 'Montserrat', sans-serif;
   font-weight: semibold;
+   
 }
 .h1, h1 {
   font-size: 6rem;
 }
 .h2, h2 {
   font-size: 10rem;
-  font-family: "Humane", "Impact", sans-serif !important;
+  font-family: 'Humane', 'Montserrat', !important;
 }
 .h3, h3 {
   font-size: 6.5rem;
-  font-family: "Humane", "Impact", sans-serif !important;
+  font-family: 'Humane', 'Montserrat', sans-serif;
 }
 .h4, h4 {
   font-size: 4rem;
-  font-family: "Humane", "Impact", sans-serif !important;
+  font-family: 'Humane', 'Montserrat', sans-serif;
 }
 .h5, h5 {
   font-size: 3rem;
@@ -59,6 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   font-size: 1.6rem;
   max-width: 500px;
+   
 }
 strong {
   color: var(--color-white-blue);
@@ -114,12 +116,20 @@ text-shadow: var(--color-med-purple) -8px -8px 0px;}
 #navbar img {
   height: 70px;
   width: 70px;
-  margin-top: -45px;
+ transform: translateY(-60%);
   border: 2px solid white;
   box-shadow: none;
   border-radius: 50%;
   background-color: var(--color-med-purple);
+  display: block;
 } 
+.navbar-text {
+  width: 100%;
+}
+.navbar-text h4 {
+padding: 0;
+margin: 0;
+}
 
 nav {
   margin: 10px auto;
@@ -489,10 +499,6 @@ input,textarea {
     background-attachment: fixed;
     background-position: top;
   }
-  /* #navbar img {
-  width: 50px;
-  height: 50px;
-  } */
   h2 .h2 {
     font-size: 6.5rem;
   }
@@ -506,7 +512,7 @@ input,textarea {
   #navbar img {
     height: 40px;
     width: 40px;
-    margin-top: -20px;
+    transform: translateY(-50%);
   }
   .fixed-links {
     top: 150px;
