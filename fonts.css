@@ -1,0 +1,42 @@
+/* import all fonts from /fonts */
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-Bold.otf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-SemiBold.otf");
+  font-weight: semibold;
+}
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-Regular.otf");
+  font-weight: regular;
+}
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-Light.otf");
+  font-weight: light;
+}
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-ExtraLight.otf");
+  font-weight: extralight;
+}
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-Thin.otf");
+  font-weight: thin;
+}
+@font-face {
+  font-family: "Humane", "Impact", sans-serif;
+  src: url("./fonts/Humane-Medium.otf");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Modernist", "Montserrat", sans-serif;
+  src: url("./fonts/Modernist-Regular.otf");
+  font-weight: regular;
+}

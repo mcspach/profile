@@ -39,8 +39,8 @@ function checkScrollIn() {
   }
 }
 
-window.addEventListener('scroll', checkScrollIn, false);
-window.addEventListener('resize', checkScrollIn, false);
+// window.addEventListener('scroll', checkScrollIn, false);
+// window.addEventListener('resize', checkScrollIn, false);
 
 
 // animate cards out
@@ -67,5 +67,37 @@ function checkScrollOut() {
   }
 }
 
-window.addEventListener('scroll', checkScrollOut, false);
-window.addEventListener('resize', checkScrollOut, false);
+// window.addEventListener('scroll', checkScrollOut, false);
+// window.addEventListener('resize', checkScrollOut, false);
+
+// scroll-scale-up
+function scaleImages() {
+  const images = document.querySelectorAll('.scroll-scale-up');
+  const windowHeight = window.innerHeight;
+
+  images.forEach(image => {
+    console.log(image);
+    const imageRect = image.getBoundingClientRect();
+    const imageTop = imageRect.top;
+    const imageBottom = imageRect.bottom;
+
+    // Calculate the scale factor based on the image's position relative to the viewport
+    const scale = 1 + 0.2 * (1 - (imageTop / windowHeight));
+
+    // Calculate the maximum scale factor based on the image's position relative to the bottom of the viewport
+    const maxScale = 1 + 0.3 * ((windowHeight - imageTop) / (imageBottom - imageTop));
+
+    // Limit the scale factor to a range of 1 to the maximum scale factor
+    const scaledValue = Math.min(maxScale, Math.max(1, scale));
+
+    // Apply the scaling transform to the current image
+    image.style.transform = `scale(${scaledValue})`;
+  });
+}
+
+// Add event listener for scroll to call the scaleImages function
+window.addEventListener('scroll', scaleImages);
+window.addEventListener('resize', scaleImages);
+// Call the function on initial load
+window.addEventListener('load', scaleImages);
+
