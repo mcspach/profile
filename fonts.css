@@ -1,42 +1,42 @@
 /* import all fonts from /fonts */
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
-  src: url("/fonts/Humane-Bold.woff2") format('woff2'), url("/fonts/Humane-Bold.otf") format(otf);
+  src: url("/fonts/Humane-Bold.woff2") format('woff2'), url("/fonts/Humane-Bold.otf") format('opentype');
   font-weight: bold;
 }
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
-  src: url("/fonts/Humane-SemiBold.woff2") format('woff2'), url("/fonts/Humane-SemiBold.otf") format(otf);
+  src: url("/fonts/Humane-SemiBold.woff2") format('woff2'), url("/fonts/Humane-SemiBold.otf") format('opentype');
   font-weight: semibold;
 }
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
-  src: url("/fonts/Humane-Regular.woff2") format('woff2'), url("/fonts/Humane-Regular.otf") format(otf);
+  src: url("/fonts/Humane-Regular.woff2") format('woff2'), url("/fonts/Humane-Regular.otf") format('opentype');
   font-weight: regular;
 }
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
-  src: url("/fonts/Humane-Light.woff2") format('woff2'), url("/fonts/Humane-Light.otf") format(otf);
+  src: url("/fonts/Humane-Light.woff2") format('woff2'), url("/fonts/Humane-Light.otf") format('opentype');
   font-weight: light;
 }
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
-  src: url("/fonts/Humane-ExtraLight.woff2") format('woff2'), url("/fonts/ExtraLight.otf") format(otf);
+  src: url("/fonts/Humane-ExtraLight.woff2") format('woff2'), url("/fonts/ExtraLight.otf") format('opentype');
   font-weight: extralight;
 }
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
- src: url("/fonts/Humane-Thin.woff2") format('woff2'), url("/fonts/Humane-Thin.otf") format(otf);
+ src: url("/fonts/Humane-Thin.woff2") format('woff2'), url("/fonts/Humane-Thin.otf") format('opentype');
   font-weight: thin;
 }
 @font-face {
   font-family: "Humane", "Impact", sans-serif;
-  src: url("/fonts/Humane-Medium.woff2") format('woff2'), url("/fonts/Humane-Medium.otf") format(otf);
+  src: url("/fonts/Humane-Medium.woff2") format('woff2'), url("/fonts/Humane-Medium.otf") format('opentype');
   font-weight: medium;
 }
 
 @font-face {
   font-family: "Modernist", "Montserrat", sans-serif;
-  src: url("/fonts/Modernist-Regular.woff2") format('woff2'), url("/fonts/Modernist-Regular.otf") format(otf);
+  src: url("/fonts/Modernist-Regular.woff2") format('woff2'), url("/fonts/Modernist-Regular.otf") format('opentype');
   font-weight: regular;
 }
