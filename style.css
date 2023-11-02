@@ -30,12 +30,11 @@ body {
   max-width: 100vw;
 }
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Humane', "Impact", sans-serif;
+  font-family: 'Humane', sans-serif;
   font-weight: semibold;
 }
 .h1, h1 {
   font-size: 6rem;
-
 }
 .h2, h2 {
   font-size: 10rem;
