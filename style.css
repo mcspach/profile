@@ -163,8 +163,8 @@ nav {
   margin-bottom: 0;
   color: var(--color-white-blue);
   height: 88vh;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
   text-align: left;
   /* border-bottom: 2px solid white; */
   background-color: rgba(0, 16, 23, 0.5);
@@ -239,8 +239,8 @@ nav {
   margin-bottom: 4vh;
   color: var(--color-white-blue);
   height: fit-content;
-  margin-right: -15px;
-  margin-left: -15px;
+  /* margin-right: -15px;
+  margin-left: -15px; */
   text-align: left;
   padding: 6% 3%;
   overflow: hidden;
