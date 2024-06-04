@@ -479,11 +479,11 @@ input,textarea {
 }
 
 .bg-footer {
-  background-image: url(../images/footer.png);
-  background-size: cover;
+  /* background-image: url(../images/footer.png);
+  background-size: cover; */
   width: 100%;
   height: auto;
-  aspect-ratio: 1/1;
+  padding-bottom: 4rem;
 }
 
 .d-none {
