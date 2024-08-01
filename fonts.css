@@ -36,7 +36,7 @@
 }
 
 @font-face {
-  font-family: "Modernist";
-  src: url("/fonts/Modernist-Regular.woff2") format('woff2'), url("/fonts/Modernist-Regular.otf") format('opentype');
+  font-family: "Motternism";
+  src: url("/fonts/Motternism-Regular.woff2") format('woff2'), url("/fonts/Motternism-Regular.otf") format('opentype');
   font-weight: regular;
 }

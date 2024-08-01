@@ -21,7 +21,7 @@ font-size: 24px;
 body {
   margin: 0 auto;
   /* text-align: center; */
-  font-family: 'Modernist', 'Montserrat', sans-serif;
+  font-family: 'Motternism', 'Montserrat', sans-serif;
   font-weight: 400;
   font-style: normal;
   background-color: black;
@@ -51,11 +51,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 .h5, h5 {
   font-size: 3rem;
-  font-family: 'Modernist', sans-serif;
+  font-family: 'Motternism', sans-serif;
 }
 .h6, h6 {
   font-size: 1.8rem;
-  font-family: 'Modernist', sans-serif;
+  font-family: 'Motternism', sans-serif;
 }
 p {
   font-size: 1.6rem;
@@ -69,8 +69,8 @@ strong {
 .font-humane {
   font-family: "Humane", "Impact", sans-serif !important;
 }
-.font-modernist {
-  font-family: "Modernist", "Montserrat", sans-serif !important;
+.font-Motternism {
+  font-family: "Motternism", "Montserrat", sans-serif !important;
 }
 body div .text-white {
   color: var(--color-white-blue);
