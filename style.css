@@ -116,7 +116,7 @@ text-shadow: var(--color-med-purple) -8px -8px 0px;}
 #navbar img {
   height: 70px;
   width: 70px;
- transform: translateY(-60%);
+ transform: translateY(-66%);
   border: 2px solid white;
   box-shadow: none;
   border-radius: 50%;
@@ -374,6 +374,12 @@ line-height: 0.9;
 }
 .bg-dcg {
   background-image: url(./images/dcg-bg.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 60px;
+}
+.bg-redtail {
+  background-image: url(./images/redtail_logomark_bg.png);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 60px;
